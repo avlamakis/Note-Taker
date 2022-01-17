@@ -57,7 +57,7 @@ var handleNoteSave = function() {
   };
 
   saveNote(newNote).then(function(data) {
-    getAnddisplayNotes();
+    getAndDisplayNotes();
     displayActiveNote();
   });
 };
@@ -107,7 +107,7 @@ var displayNoteList = function(notes) {
 };
 
 //fetchs notes from the db and displays them to the sidebar
-var getAnddisplayNotes = function() {
+var getAndDisplayNotes = function() {
   return getNotes().then(function(data) {
     displayNoteList(data);
   });
@@ -121,10 +121,10 @@ $noteTitle.on("keyup", handleDisplaySaveBtn);
 $noteText.on("keyup", handledDsplaySaveBtn);
 
 // Gets and displays the initial list of notes
-getAnddisplayNotes();
+getAndDisplayNotes();
 
 // Gets notes from the db and uses the event listeners to display on each event
-var getAnddisplayNotes = () => getNotes().then(displayNoteList);
+var getAndDisplayNotes = () => getNotes().then(displayNoteList);
 
 if (window.location.pathname === '/notes') {
   saveNoteBtn.addEventListener('click', handleNoteSave);
@@ -133,4 +133,4 @@ if (window.location.pathname === '/notes') {
   noteText.addEventListener('keyup', handleDisplaySaveBtn);
 }
 
-getAnddisplayNotes();
+getAndDisplayNotes();
