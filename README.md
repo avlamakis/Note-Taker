@@ -22,10 +22,10 @@ To install this app you will need to run NPM install for the following dependenc
 ## Usage:
 Deployed App- https://dashboard.heroku.com/apps/avlamakis-note-taker
 
-![image](https://user-images.githubusercontent.com/91172337/149688783-a1edb982-8e3f-4697-ba2a-67ec9fd2d7c2.png)
+![image](https://user-images.githubusercontent.com/91172337/149689056-1fe71831-948e-47a4-9691-d92b64905993.png)
 
 
-![image](https://user-images.githubusercontent.com/91172337/149688800-8429f479-eb87-492f-bdb8-15e3a912c973.png)
+![image](https://user-images.githubusercontent.com/91172337/149689028-887dd469-db1d-4733-b709-4721a7dda26d.png)
 
 
 ## License:
